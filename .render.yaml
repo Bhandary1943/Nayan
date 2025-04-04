@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: face-recognition-streamlit
+    env: docker
+    plan: free
+    autoDeploy: true
